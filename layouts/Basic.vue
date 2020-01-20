@@ -2,11 +2,11 @@
     <div class="">
         <div class="left">
             <div class="image">
-                <img src="">>
+                <img src="" alt="name">
             </div>
             <div class="about">
                 <h2>About me</h2>
-                <p>Short text about me</p>
+                <p>My name is {{name}} Short text about me</p>
             </div>
             <div class="contact">
                 <h2>Contacto</h2>
@@ -45,6 +45,11 @@
 <script>
     export default {
         name: 'DefaultLayout',
+        data () {
+            return {
+                name: 'sample name'
+            }
+        },
         components: {
         }
     }
