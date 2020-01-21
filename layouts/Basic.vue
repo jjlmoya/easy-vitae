@@ -6,7 +6,7 @@
             </div>
             <div class="about">
                 <h2>About me</h2>
-                <p>My name is {{name}} Short text about me</p>
+                <p>My name is {{ name }} Short text about me</p>
             </div>
             <div class="contact">
                 <h2>Contacto</h2>
@@ -45,12 +45,23 @@
 <script>
     export default {
         name: 'DefaultLayout',
+        components: {
+        },
         data () {
             return {
-                name: 'sample name'
+                name: 'sample name',
+                skills: [{
+
+                }],
+                experience: [],
+                languages: [
+                    {
+                        id: 'es',
+                        name: 'Spanish',
+                        level: '3'
+                    }
+                ]
             }
-        },
-        components: {
         }
     }
 </script>
