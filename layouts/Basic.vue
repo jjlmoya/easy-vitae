@@ -53,12 +53,23 @@
                 skills: [{
 
                 }],
-                experience: [],
+                experience: [
+                    {
+                        company: '',
+                        task: '',
+                        projects: []
+                    }
+                ],
                 languages: [
                     {
                         id: 'es',
                         name: 'Spanish',
                         level: '3'
+                    },
+                    {
+                        id: 'en',
+                        name: 'English',
+                        level: '1'
                     }
                 ]
             }
