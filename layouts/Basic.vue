@@ -5,8 +5,12 @@
                 <img src="" alt="name">
             </div>
             <div class="about">
-                <h2>About me</h2>
-                <p>My name is {{ name }} Short text about me</p>
+                Name: {{ name }}
+                Edad: {{ age }}
+                Adress: {{ address }}
+                Phone {{ phone }}
+                Email: {{ email }}
+                Profile: {{ about }}
             </div>
             <div class="contact">
                 <h2>Contacto</h2>
